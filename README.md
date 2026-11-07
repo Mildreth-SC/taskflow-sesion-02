@@ -66,7 +66,7 @@ pubspec.lock                  Versiones resueltas
 analysis_options.yaml         Reglas del analizador
 LEEME.md                      Guía original de la sesión 2
 EVIDENCIAS.md                 Procedencia de las capturas
-docs/evidencias/              PNG del emulador de esta sesión
+docs/evidencias/              PNG y video del emulador de esta sesión
 android/                      Proyecto Android (com.example.taskflow)
 ios/ linux/ macos/ web/ windows/   Proyectos de plataforma de Flutter
 ```
@@ -82,3 +82,11 @@ Pendientes en 0, meta diaria en 5 de 5 y **Completar una tarea** deshabilitado:
 Una pendiente otra vez. La meta sigue en 5 de 5 y **Completar una tarea** vuelve a estar activo:
 
 ![Pendientes en 1, completadas hoy 5 de 5 y Completar una tarea activo](docs/evidencias/sesion-02-en-uno.png)
+
+## Video
+
+La misma pantalla, grabada en el emulador remoto Android 15 (API 35, AVD `taskflow_api35`), con Flutter 3.47.9. No es un teléfono físico. El archivo es H.264, 1080×2400 y dura 21,8 s.
+
+[sesion-02-ejecucion.mp4](docs/evidencias/sesion-02-ejecucion.mp4)
+
+Empieza en 3 pendientes y `Completadas hoy: 0 de 5`. Dos toques en **Agregar tarea** dejan 5 pendientes y 0 completadas. Cinco toques en **Completar una tarea** llegan a 0 pendientes, `Completadas hoy: 5 de 5`, el mensaje `¡Excelente! No tienes tareas pendientes.` y el botón **Completar una tarea** deshabilitado. Un toque más en **Agregar tarea** deja 1 pendiente; las completadas siguen en 5 de 5 y el botón vuelve a estar activo.
